@@ -36,7 +36,7 @@ defmodule Discuss.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_discuss_key",
-    signing_salt: "HvO3pRxS"
+    signing_salt: "7x8jmrYe"
 
   plug Discuss.Router
 end
